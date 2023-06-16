@@ -1,0 +1,11 @@
+.button {
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,29 @@
+.gallery__item {
+  list-style-type: none;
+}
+.image {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .image {
+    height: 465px;
+    width: 100%;
+  }
+  .gallery__item {
+    margin-right: 5px;
+    margin-bottom: 2px;
+  }
+}
+@media (min-width: 1200px) {
+  .image {
+    height: 300px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .gallery__item {
+    transition: transform 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+  }
+  .gallery__item:hover {
+    scale: 0.95;
+  }
+}
