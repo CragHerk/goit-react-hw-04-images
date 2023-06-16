@@ -4,12 +4,10 @@ import { ClipLoader } from 'react-spinners';
 
 const Loader = () => {
   const override = css`
-    display: block;
-    margin: 0 auto;
-    border-color: red;
+    background-color: #36846b;
   `;
 
-  return <ClipLoader color="#123abc" css={override} size={35} />;
+  return <ClipLoader color="#36846b" css={override} size={35} />;
 };
 
 export default Loader;
