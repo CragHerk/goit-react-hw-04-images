@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactModal from 'react-modal';
-import searchImages from '../Utils/api';
+import searchImages from '../utils/api';
 import Searchbar from './Searchbar/Searchbar';
 import ImageGallery from './ImageGallery/ImageGallery';
 import Button from './Button/Button';
